@@ -1,7 +1,10 @@
+import Hello from './components/Hello';
+
 function App() {
   return (
     <div className="App">
-      <h1>Test</h1>
+      <Hello name="Rob" message="Hello there!" emoji="😃"></Hello>
+      <Hello name="Tom" message="Hello......" emoji="😆"></Hello>
     </div>
   );
 }
