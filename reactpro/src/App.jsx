@@ -1,10 +1,10 @@
 import Hello from './components/Hello';
-
+import Fruits from './components/Fruits';
+import ConditionalComponent from './components/ConditionalComponent';
 function App() {
   return (
     <div className="App">
-      <Hello name="Rob" message="Hello there!" emoji="😃"></Hello>
-      <Hello name="Tom" message="Hello......" emoji="😆"></Hello>
+      <Fruits />
     </div>
   );
 }
